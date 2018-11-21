@@ -1,0 +1,36 @@
+body{
+    width: 30%;
+}
+
+#demo{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#bouton_envoi{
+    margin: 5px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+fieldset{
+    display: block;
+    background-color: grey;
+}
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}

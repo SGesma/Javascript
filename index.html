@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div id="demo">
+        
+            <fieldset>
+            <legend>Notre formulaire à remplir</legend>
+            
+                <label for="nom">Votre nom</label>
+                    <input type="text" name="nom" id="nom" maxlength="20" placeholder="De 3 à 30 caractères">
+                    <br>
+
+
+                <label for="prenom">Votre prénom</label>
+                    <input type="text" name="prenom" id="prenom" maxlength="20" placeholder="De 3 à 15 caractères">
+                    <br>
+
+                
+                <label for="email">Votre email</label>
+                    <input type="email" name="email" id="email" placeholder="mail@serveur.com">
+                    <br>
+
+                
+                <label for="age">Votre âge ?</label>
+                    <input type="number" id="age">
+                    <br>
+
+                <input type="submit" value="ENVOYER" id="bouton_envoi">
+            </fieldset>
+
+    </div>
+
+    <div id="personne"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
